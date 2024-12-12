@@ -5,7 +5,7 @@ const ReviewCard = ({ reviewerImage, stars, reviewText }: {
   reviewerImage: string, stars: number, reviewText: string
 }) => {
   const starsDOM = Array.from({ length: stars }, (_, index) => (
-    <Image alt="Star" key={index} className="w-9 h-9 shrink-0" src="./home/star.png" />
+    <Image alt="Star" key={index} className="w-9 h-9 shrink-0" src="/home/star.png" />
   ));
 
   return (
