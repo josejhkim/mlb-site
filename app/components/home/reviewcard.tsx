@@ -10,7 +10,7 @@ const ReviewCard = ({ reviewerImage, stars, reviewText }: {
 
   return (
     <div className="w-[27%]">
-      <div className="flex space-between">
+      <div className="flex gap-6">
         <div className="rounded-full border-2 w-16 h-16 overflow-hidden">
           <Image alt="Reviewer" src={reviewerImage} width={40} height={40}className="w-full h-full"/>
         </div>
