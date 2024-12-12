@@ -20,7 +20,7 @@ const Picture = ({ pos, dim, rotation, img }: { pos: string, dim: Array<number>,
       }}
     >
       <div className="w-full h-full bg-black">
-        <Image alt="Home page image" className="w-full h-full" src={img} />
+        <Image alt="Home page image" width={40} height={40} className="w-full h-full" src={img} />
       </div>
     </div>
   );
