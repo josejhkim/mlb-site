@@ -1,7 +1,4 @@
 import React from 'react'
-import PlatformBottom from '../components/pricing/platformBottom'
-import Pricecard from '../components/pricing/pricecard'
-import PlatformTop from '../components/pricing/platformTop'
 
 const Page = () => {
   return (
