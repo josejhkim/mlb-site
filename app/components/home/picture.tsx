@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Picture = ({ pos, dim, rotation, img }: { pos: string, dim: Array<number>, rotation: number, img: string }) => {
@@ -19,7 +20,7 @@ const Picture = ({ pos, dim, rotation, img }: { pos: string, dim: Array<number>,
       }}
     >
       <div className="w-full h-full bg-black">
-        <img className="w-full h-full" src={img} />
+        <Image alt="Home page image" className="w-full h-full" src={img} />
       </div>
     </div>
   );
