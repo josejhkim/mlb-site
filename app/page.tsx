@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Picture from "./components/home/picture";
 import FeatureParagraph from "./components/home/featureparagraph";

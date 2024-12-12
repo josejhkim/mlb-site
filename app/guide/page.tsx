@@ -11,7 +11,7 @@ const Page = () => {
           Guide
         </h2>
         <h3 className="font-light text-xl">
-          Start here if you're new to our product
+          Start here if you&apos;re new to our product
         </h3>
       </div>
       <div className="flex flex-col items-center mt-16 pb-6">
