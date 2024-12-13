@@ -66,7 +66,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center 
       mt-28 lg:mt-44">
-        <h2 className="text-white font-extralight 
+        <h2 className="text-white text-center font-extralight 
         text-3xl lg:text-5xl">
           Reviews from our customers
         </h2>
