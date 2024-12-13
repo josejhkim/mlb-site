@@ -32,6 +32,7 @@ export default function RootLayout({
           ${archivo.variable} 
           font-[family-name:var(--font-archivo)]
           mx-8 lg:mx-20
+          relative
           antialiased` }>
           {children}
         </div>

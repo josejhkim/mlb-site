@@ -2,7 +2,7 @@ import React from 'react';
 
 const PlatformTop = () => {
   return (
-    <div className="flex relative justify-center items-center -z-50">
+    <div className="flex relative justify-center items-center -z-5">
       <svg
         className="w-full h-full"
         width="600"
