@@ -9,7 +9,7 @@ import PlatformTop from '../components/pricing/platformTop'
 const Page = () => {
   const [currPositions, setCurrPositions] = useState([
     { pos: "left", top: '-10px', left: '-478px', zIndex: "1" },
-    { pos: "center", top: '80px', left: '-128px', zIndex: "2" },
+    { pos: "center", top: '70px', left: '-128px', zIndex: "2" },
     { pos: "right", top: '-10px', left: '222px', zIndex: "1" },
   ]);
 
