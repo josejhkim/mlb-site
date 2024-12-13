@@ -9,7 +9,7 @@ const Page = () => {
         mb-4 lg:mb-8">
           Guide
         </h2>
-        <h3 className="font-light 
+        <h3 className="font-light text-center
         text-lg md:text-lg lg:text-xl">
           Start here if you&apos;re new to our product
         </h3>

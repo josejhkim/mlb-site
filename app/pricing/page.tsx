@@ -67,7 +67,7 @@ const Page = () => {
         mb-4 lg:mb-8">
           Pricing
         </h2>
-        <h3 className="font-light 
+        <h3 className="font-light text-center 
         text-lg md:text-lg lg:text-xl">
           We guarantee you get more than what you pay for
         </h3>
