@@ -28,8 +28,8 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden md:block relative">
-          <Picture pos={'relative right-10'} dim={[80, 72]} rotation={-7} img={"null"} />
-          <Picture pos={'absolute top-32 left-20'} dim={[80, 72]} rotation={17} img={"null"} />
+          <Picture pos={'relative right-10'} dim={[80, 72]} rotation={-7} img={"https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww"} />
+          <Picture pos={'absolute top-32 left-20'} dim={[80, 72]} rotation={17} img={"https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww"} />
         </div>
       </div>
       <div className="flex flex-col items-center mt-64">
@@ -47,9 +47,9 @@ export default function Home() {
           Reviews from our customers
         </h2>
         <div className="flex mt-28 mb-12 w-full justify-between">
-          <ReviewCard reviewerImage="null" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
-          <ReviewCard reviewerImage="null" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
-          <ReviewCard reviewerImage="null" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
+          <ReviewCard reviewerImage="https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
+          <ReviewCard reviewerImage="https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
+          <ReviewCard reviewerImage="https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww" reviewText="Ut dictum, tellus ut elementum faucibus, orci ipsum aliquet tortor, quis convallis erat erat eget libero. Duis eu mattis urna. Sed vestibulum lorem neque, non placerat urna sollicitudin ut. " stars={5}/>
         </div>
       </div>
     </>
