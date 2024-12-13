@@ -7,8 +7,6 @@ import PlatformTop from '../components/pricing/platformTop'
 
 
 const Page = () => {
-  const xl = window.matchMedia("(min-width: 1280px)").matches
-
   const [currPositions, setCurrPositions] = useState([
     { pos: "left", top: '-10px', left: '-478px', zIndex: "1" },
     { pos: "center", top: '80px', left: '-128px', zIndex: "2" },
@@ -20,7 +18,7 @@ const Page = () => {
   const [currRight, setCurrRight] = useState("2");
 
   function changeCenter(id: string) {
-    if (!xl || id === currCenter) {
+    if (id === currCenter) {
       return;
     }
 
