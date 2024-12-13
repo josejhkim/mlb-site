@@ -7,7 +7,7 @@ const Pricecard = ({ title, features, price }: {
     <div className="flex flex-col items-center 
     border-2 text-white rounded-lg 
     bg-gradient-to-b from-[#19002d] to-[#401c40]
-    w-80 md:w-56 lg:w-64
+    w-72 sm:w-96 md:w-56 lg:w-64
     pt-8
     pb-8
     h-fit
@@ -17,7 +17,7 @@ const Pricecard = ({ title, features, price }: {
     }}
     >
       <h4 className="font-semibold mb-4
-      text-4xl md:text-3xl lg:text-4xl
+      text-2xl sm:text-3xl lg:text-4xl
       ">
         {title}
       </h4>
@@ -25,8 +25,8 @@ const Pricecard = ({ title, features, price }: {
         {features.map((feature) => (
 
           <li className="my-6 font-regular
-          w-52 md:w-36 lg:w-44
-          text-2xl md:text-xl lg:text-2xl
+          w-48 sm:w-56 md:w-36 lg:w-44
+          text-lg sm:text-xl lg:text-2xl
           " key={feature}>
             {feature}
           </li>
@@ -34,7 +34,7 @@ const Pricecard = ({ title, features, price }: {
         ))}
       </ul>
       <div className="text-black font-bold bg-white px-4 py-3 
-      text-3xl md:text-2xl
+      text-2xl sm:text-3xl md:text-2xl
       rounded-md">
         Buy for ${price}
       </div>
