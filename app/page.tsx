@@ -31,16 +31,16 @@ export default function Home() {
             w-[42%] text-center 
             flex items-center justify-center
             text-base sm:text-lg md:text-xl lg:text-2xl
-            px-4 lg:px-0
-            py-1 sm:py-4 lg-px-4">
+            px-1 lg:px-0
+            py-2 sm:py-3 lg-px-4">
               Watch a demo
             </Link>
             <Link href="/pricing" className="font-extrabold bg-[#EBF0EB] text-black rounded-md  
             w-[42%] text-center 
             flex items-center justify-center
             text-base sm:text-lg md:text-xl lg:text-2xl
-            px-4 lg:px-0
-            py-1 sm:py-4 lg:px-4">
+            px-1 lg:px-0
+            py-2 sm:py-3 lg:px-4">
               View pricing
             </Link>
           </div>
