@@ -5,16 +5,21 @@ const ReviewCard = ({ reviewerImage, stars, reviewText }: {
   reviewerImage: string, stars: number, reviewText: string
 }) => {
   const starsDOM = Array.from({ length: stars }, (_, index) => (
-    <Image alt="Star" key={index} width={20} height={20} className="w-4 lg:w-9 h-4 lg:h-9 shrink-0" src="/home/star.png" />
+    <Image alt="Star" key={index} width={20} height={20} className="
+    w-9 
+    h-9 shrink-0" src="/home/star.png" />
   ));
 
   return (
-    <div className="w-64 lg:w-[27%]">
+    <div className="flex flex-col 
+    w-[70%] lg:w-[30%]
+    items-center lg:items-start 
+    ">
       <div className="flex 
       gap-2 lg:gap-6">
         <div className="rounded-full border-2 
-        w-8 lg:w-16 
-        h-8 lg:h-16 
+        w-16
+        h-16 
         overflow-hidden">
           <Image alt="Reviewer" src={reviewerImage} width={40} height={40} className="w-full h-full"/>
         </div>

@@ -5,16 +5,16 @@ const FeatureParagraph = ({heading, body}: {heading: string, body: string}) => {
     <div className="
     text-white 
     flex flex-col items-center 
-    w-[80%] lg:w-[27%]
+    w-[70%] lg:w-[27%]
     ">
       <h3 className="font-bold 
-      text-2xl lg:text-4xl 
+      text-xl sm:text-2xl md:text-3xl lg:text-4xl 
       mb-4 lg:mb-8">
         {heading}
       </h3>
       <p className="font-light 
-      text-lg lg:text-2xl 
-      leading-8 lg:leading-9">
+      text-base sm:text-lg md:text-xl lg:text-2xl 
+      leading-7 md:leading-8 lg:leading-9">
         {body}
       </p>
     </div>
