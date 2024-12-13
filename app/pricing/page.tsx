@@ -7,7 +7,7 @@ import PlatformTop from '../components/pricing/platformTop'
 
 
 const Page = () => {
-  let xl = window.matchMedia("(min-width: 1280px)").matches
+  const xl = window.matchMedia("(min-width: 1280px)").matches
 
   const [currPositions, setCurrPositions] = useState([
     { pos: "left", top: '-10px', left: '-478px', zIndex: "1" },
