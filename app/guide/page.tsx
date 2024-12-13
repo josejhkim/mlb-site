@@ -25,7 +25,7 @@ const Page = () => {
           '
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=YtXmP2nVdFRP9fVw&amp;start=1" title="Demo" allow="accelerometerpted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
-        <p className="text-white mt-6">
+        <p className="text-white text-center mt-6">
           Watch and follow our step-by-step video demo to get started
         </p>
       </div>
