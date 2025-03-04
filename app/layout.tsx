@@ -22,18 +22,21 @@ export default function RootLayout({
           ${archivo.variable} 
           font-[family-name:var(--font-archivo)]
           overflow-x-hidden
-          antialiased` }
-      >
+          antialiased
+      `}>
+
         <Navbar/>
+        
         <div         
           className={`
-          min-h-dvh
-          bg-gradient-to-b from-[#1d0033] from-0% via-[#28102c] via-33% via-[#201624] via-66% to-[#1d0033] to-100%
-          ${archivo.variable} 
-          font-[family-name:var(--font-archivo)]
-          mx-8 lg:mx-20
-          relative
-          antialiased` }>
+            min-h-dvh
+            relative
+            mx-8 lg:mx-20
+            bg-gradient-to-b from-[#1d0033] from-0% via-[#28102c] via-33% via-[#201624] via-66% to-[#1d0033] to-100%
+            ${archivo.variable} 
+            font-[family-name:var(--font-archivo)]
+            antialiased
+        `}>
           {children}
         </div>
       </body>

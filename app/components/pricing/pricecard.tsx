@@ -4,38 +4,59 @@ const Pricecard = ({ title, features, price }: {
   title: string, features: Array<string>, price: number
 }) => {
   return (
-    <div className="flex flex-col items-center 
-    border-2 text-white rounded-lg 
-    bg-gradient-to-b from-[#19002d] to-[#401c40]
-    w-72 sm:w-96 md:w-56 lg:w-64
-    pt-8
-    pb-8
-    h-fit
-    "
-    style={{
-      boxShadow: "4px 4px 6px #FFD1FF",
-    }}
-    >
-      <h4 className="font-semibold mb-4
-      text-2xl sm:text-3xl lg:text-4xl
+    <div 
+      className="
+        w-72 sm:w-96 md:w-56 lg:w-64
+        h-fit
+        pt-8
+        pb-8
+        flex flex-col 
+        items-center 
+        border-2  
+        rounded-lg 
+        bg-gradient-to-b from-[#19002d] to-[#401c40]
+        text-white
+      "
+      style={{
+        boxShadow: "4px 4px 6px #FFD1FF",
+    }}>
+
+      <h4 className="
+        mb-4
+        text-2xl sm:text-3xl lg:text-4xl
+        font-semibold 
       ">
         {title}
       </h4>
-      <ul className='list-disc mb-6'>
-        {features.map((feature) => (
 
-          <li className="my-6 font-regular
-          w-48 sm:w-56 md:w-36 lg:w-44
-          text-lg sm:text-xl lg:text-2xl
-          " key={feature}>
+      <ul className='
+        mb-6
+        list-disc 
+      '>
+        {features.map((feature) => (
+          <li 
+            className="
+              w-48 sm:w-56 md:w-36 lg:w-44
+              my-6
+              text-lg sm:text-xl lg:text-2xl
+              font-regular
+            " 
+            key={feature}
+          >
             {feature}
           </li>
-
         ))}
       </ul>
-      <div className="text-black font-bold bg-white px-4 py-3 
-      text-2xl sm:text-3xl md:text-2xl
-      rounded-md">
+
+      <div className="
+        px-4 
+        py-3 
+        rounded-md
+        bg-white 
+        text-2xl sm:text-3xl md:text-2xl
+        text-black 
+        font-bold
+     ">
         Buy for ${price}
       </div>
     </div>
